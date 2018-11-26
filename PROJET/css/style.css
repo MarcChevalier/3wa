@@ -1,0 +1,164 @@
+html{
+  font-family: 'Indie Flower', cursive;
+}
+header {
+  background-image: url("../img/coeurprojet.png");
+  background-repeat: no-repeat;
+  padding-bottom: 70px;
+  text-align: center;
+}
+body {
+
+}
+#title {
+	background: #cb001c;
+	padding: 0.3px;
+	border-radius: 5px;
+
+}
+.title {
+  color : #cb001c;
+}
+h1 {
+  color: #fff;
+}
+.titlefree {
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.link {
+  text-decoration: none;
+  color: #f8d7c6;
+}
+a:hover {
+color:red;
+text-decoration:none;
+background-color:black;
+}
+.titlenotfree {
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+#listfree {
+  list-style: none;
+}
+.listfree {
+  list-style: none;
+}
+#listnotfree {
+  list-style: none;
+}
+.listnotfree {
+  list-style: none;
+}
+#free {
+  list-style: none;
+  display : flex;
+  justify-content: space-around;
+}
+#notfree {
+  list-style: none;
+  display : flex;
+  justify-content: space-around;
+}
+.cta{
+	padding: 0.5em;
+	background-color: #cb001c;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 1rem; /*20px*/
+	letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+	box-shadow: inset 0 0 0 3px #5f111b;
+}
+
+#footer {
+  list-style: none;
+  display : flex;
+  justify-content: space-around;
+  color: #f8d7c6;
+}
+footer {
+  background-color: #cb001c;
+  padding-bottom: 25px;
+}
+.footer {
+  text-align: center;
+  color: #f8d7c6;
+
+}
+form {
+  /* Pour le centrer dans la page */
+  margin: 0 auto;
+  width: 400px;
+
+  /* Pour voir les limites du formulaire */
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+  background-color: #cb001c;
+}
+
+div + div {
+  margin-top: 1em;
+}
+
+label {
+  /* Afin de s'assurer que toutes les étiquettes aient la même dimension et soient alignées correctement */
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+input, textarea {
+  /* Afin de s'assurer que tous les champs textuels utilisent la même police
+     Par défaut, textarea utilise une police à espacement constant */
+  font: 1em sans-serif;
+
+  /* Pour donner la même dimension à tous les champs textuels */
+  width: 300px;
+
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+
+  /* Pour harmoniser l'apparence des bordures des champs textuels */
+  border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+  /* Afin de réhausser les éléments actifs */
+  border-color: #000;
+}
+
+textarea {
+  /* Pour aligner correctement les champs multilignes et leurs étiquettes */
+  vertical-align: top;
+
+  /* Pour donner assez d'espace pour entrer du texte */
+  height: 5em;
+
+  /* Pour permettre aux utilisateurs de redimensionner un champ textuel horizontalement
+     Cela ne marche pas avec tous les navigateurs  */
+  resize: vertical;
+}
+
+.button {
+  /* Pour positionner les boutons de la même manière que les champs textuels */
+  padding-left: 90px; /* même dimension que les étiquettes */
+}
+
+button {
+  /* Cette marge représente approximativement le même espace
+     que celui entre les étiquettes et les champs textuels */
+  margin-left: .5em;
+}
+.home {
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  background-color: #cb001c;
+}

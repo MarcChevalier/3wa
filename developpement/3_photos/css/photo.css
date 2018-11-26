@@ -1,0 +1,35 @@
+*{
+  max-width: 1100px;
+}
+
+ul{
+  width: 60%;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+
+
+
+}
+.image:hover{
+  border-radius: 15px;
+  background-color: silver;
+  border-style: solid 3px;
+
+}
+
+.selected {
+  background-color: green;
+}
+
+
+.image{
+  padding: 10px 10px 10px 10px;
+  align-items: center;
+}
+
+em{
+  color: red;
+}

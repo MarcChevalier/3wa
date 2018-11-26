@@ -1,0 +1,29 @@
+
+
+<h2><i class="fa fa-cogs"></i> Panneau d'administration</h2>
+
+<nav>
+    <a href="add_post.php">Rédiger un nouvel article</a>
+</nav>
+
+<table>
+   <caption>Liste des articles</caption>
+   <?php foreach($requetedeladmin as $commentos): ?>
+     <thead>
+         <tr>
+           <th> <input type="hidden" name="postId" value="<?= $commentos['Id'] ?>"> </th>
+           <th>  <?= $commentos['Title'] ?> &nbsp</th>
+           <th>  <?= $commentos['Name'] ?> &nbsp </th>
+           <th>  <?= $commentos['FirstName'] ?> &nbsp </th>
+           <th>  <?= $commentos['LastName'] ?> &nbsp </th>
+
+           <th> &nbsp <a href="edit_post.php?id=<?=$commentos['Id'] ?>" <i class="fas fa-pen"></i> </a> &nbsp <a href="delete_post.php?id=<?=$commentos['Id'] ?>" <i class="fas fa-trash"></i> </a> </th>
+           </tr>
+     </thead>
+     <?php endforeach; ?>
+
+   <tbody>
+   <!-- code -->
+
+   </tbody>
+</table>

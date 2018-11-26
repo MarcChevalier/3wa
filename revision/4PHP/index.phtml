@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>fight</title>
+	<meta charset="utf-8">
+	<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+</head>
+<body>
+	<p>Coucou <?= $name ?></p>
+
+    <ul>
+    	<?php foreach($posts as $post) {?>
+
+        	<li><?=$post['id']?></li>
+
+    	<?php ?>
+    </ul>
+    <form method="POST" action="index.php">
+    	<input type="text" name="nom"/>
+        <input type="submit" value="envoyer"/>
+
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!-- <!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>JavaScript</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/normalize.min.css">
+  <link rel="stylesheet" href="css/slider.css">
+  <title>Sliders</title>
+</head>
+<body>
+  <header>
+
+
+    <h1>Sliders, les mondes parallèles ;-)</h1>
+    <nav class="toolbar">
+      <a id="toolbar-toggle" href="#">Barre d'outils</a>
+    </nav>
+    <div class="images">
+      <button id="slider-previous"type="button" name="button">Prev</button>
+      <button id="slider-toogle"type="button" name="button">Play</button>
+      <button id="slider-next" type="button" name="button">Next</button>
+      <button id="slider-random" type="button" name="button">Random</button>
+    </div>
+  </header>
+  <main>
+    <figure id="slider" class="slider">
+      <img src="images/1.jpg" alt="Photo du carrousel">
+      <figcaption></figcaption>
+    </figure>
+  </main>
+
+  <script src="js/slider.js"></script>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="fr">
+<!-- index.html -->
+
+<head>
+    <meta charset="utf-8">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" href="css/slider.css">
+    <script src="js/utilities.js"></script>
+    <!-- Fonctions utilitaires -->
+
+</head>
+<body>
+    <header>
+        <h1>Sliders, les mondes parallèles ;-)</h1>
+        <nav class="toolbar">
+            <a id="toolbar-toggle" href="#"><i class="fa fa-arrow-right"></i> Barre d'outils</a>
+            <ul class="hide">
+                <li><button id="slider-previous" title="Image précédente"><i class="fa fa-backward"></i></button></li>
+                <li><button id="slider-toggle" class="play" title="Démarrer le carrousel"><i class="fa fa-play"></i></button></li>
+                <li><button id="slider-next" title="Image suivante"><i class="fa fa-forward"></i></button></li>
+                <li><button id="slider-random" title="Sélectionner une image aléatoire"><i class="fa fa-random"></i></button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <figure id="slider" class="slider">
+            <img src="images/1.jpg" alt="Photo du carrousel">
+            <figcaptation>Street Art</figcaptation>
+        </figure>
+    </main>
+
+    <!-- Code principal du carrousel -->
+    <script src="js/slider.js"></script>
+</body>
+</html>
